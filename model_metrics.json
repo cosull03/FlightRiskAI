@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.841,
+  "auc_roc": 0.715,
+  "training_size": 79719,
+  "test_size": 19930,
+  "overall_delay_rate": 0.162,
+  "feature_importance": {
+    "op_unique_carrier_enc": 0.301,
+    "dep_hour": 0.251,
+    "distance": 0.123,
+    "origin_enc": 0.116,
+    "day_of_month": 0.084,
+    "day_of_week": 0.075,
+    "dest_enc": 0.049,
+    "month": 0.0
+  },
+  "model_type": "GradientBoostingClassifier",
+  "n_estimators": 200,
+  "max_depth": 5
+}
